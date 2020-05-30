@@ -30,7 +30,7 @@ U 1 1 5ED21E81
 P 5300 4050
 F 0 "J2" H 5350 4467 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5350 4376 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 5300 4050 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5300 4050 50  0001 C CNN
 F 3 "~" H 5300 4050 50  0001 C CNN
 	1    5300 4050
 	1    0    0    -1  

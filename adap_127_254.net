@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/movilidad2/galopago-git/adap_127_254/adap_127_254.sch)
-    (date "sáb 30 may 2020 01:24:04 -05")
+    (date "sáb 30 may 2020 02:08:23 -05")
     (tool "Eeschema 5.1.5-52549c5~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 5ED20FF2))
     (comp (ref J2)
       (value Conn_02x05_Odd_Even)
-      (footprint Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical)
+      (footprint Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x05_Odd_Even) (description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
