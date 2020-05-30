@@ -10,11 +10,6 @@
   )
 
   (page A4)
-  (title_block
-    (title "5x2 pin 1.27 mm male to 2.54 mm male adapter")
-    (company Galopago)
-  )
-
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

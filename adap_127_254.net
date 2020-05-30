@@ -1,12 +1,12 @@
 (export (version D)
   (design
     (source /home/movilidad2/galopago-git/adap_127_254/adap_127_254.sch)
-    (date "vie 29 may 2020 20:33:05 -05")
+    (date "sáb 30 may 2020 01:24:04 -05")
     (tool "Eeschema 5.1.5-52549c5~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title)
-        (company)
+        (title "5x2 pin 1.27 mm male to 2.54 mm male adapter")
+        (company Galopago)
         (rev)
         (date)
         (source adap_127_254.sch)
