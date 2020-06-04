@@ -4,6 +4,8 @@ This board is intented to interface between the "small" J-Link EDU Mini Programm
 
 *Read this in other languages: [Español](README.es.md)*
 
+![PCB 3D picture](docs/pcb3d.png)
+
 ## considerations
 
 download libraries, link to kicad setup external libs, license open source --recursive
