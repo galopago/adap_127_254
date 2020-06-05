@@ -22,7 +22,15 @@ To setup KiCad to use the downloaded library from the repo instead of the stock 
 * modules directory (git submodule) contains footprint libraries.
 * packages3d directory (git submodule) contains 3D model libraries.
 * gerber/single directory contains ready to manufacture files, for a single board.
-* gerber/panel_100mmx100mm contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
-+ docs directory some aditional info about the project.
+* gerber/panel_100mmx100mm directory contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
+* docs directory some aditional info about the project.
 
-download libraries, link to kicad setup external libs, license open source --recursive
+## license
+
+This work is licensed under the Creative 
+Commons Attribution 4.0 International 
+License. To view a copy of this license, 
+visit http://creativecommons.org/licenses/by/4.0/ 
+or send a letter to Creative Commons, 
+PO Box 1866, Mountain View, CA 94042, USA.
+
