@@ -25,7 +25,7 @@ To setup KiCad to use the downloaded library from the repo instead of the stock 
 * gerber/panel_100mmx100mm directory contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
 * docs directory some aditional info about the project.
 
-## license
+## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
