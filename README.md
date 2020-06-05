@@ -8,7 +8,7 @@ This board was created to convert  between the "small" J-Link EDU Mini Programme
 
 The J-Link EDU Mini sports a 2x5 1.27 mm male connector and includes a female to female 2x5 1.27 mm ribbon cable for target connection.
 
-If for some reason your target doesn't have the same connector (debug pins scattered somewhere on th PCB) or want to connect to a circuit on a breadboard, this PCB wil ease the task. 
+If for some reason your target doesn't have the same connector (debug pins scattered somewhere on the PCB), or want to connect to a circuit on a breadboard, this PCB will ease the task. 
 ## How to use this repository
 
 The PCB was developed in KiCad V5.1, and include some elements that are not merged yet to the main KiCad library repo.  To make sure nothing  will break on the future, all the KiCad libraries were included as git submodules, so to clone the repo use the  --recursive option to get all submodules (about 5 Gb !!).
@@ -23,7 +23,7 @@ To setup KiCad to use the downloaded library from the repo instead of the stock 
 * packages3d directory (git submodule) contains 3D model libraries.
 * gerber/single directory contains ready to manufacture files, for a single board.
 * gerber/panel_100mmx100mm directory contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
-* docs directory some aditional info about the project.
+* docs directory some additional info about the project.
 
 ## License
 
