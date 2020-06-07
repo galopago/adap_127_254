@@ -2,7 +2,7 @@
 
 Esta tarjeta fue creada para convertir del conector "pequeño" de 1.27 mm que trae el  Programador-Depurador J-Link EDU Mini a un conector macho de 2.54 mm.
 
-*Lea esto en otros idiomas: [English](README.md)*
+*Lea esto en otros idiomas: [English](../README.md)*
 
 ![PCB 3D picture](pcb3d.png)
 
