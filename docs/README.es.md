@@ -1,10 +1,10 @@
-# 2x5 pin 1.27 mm male to 2.54 mm male header adapter PCB
+# PCB adaptador de conector 2x5 pines 1.27 mm macho a conector 2x5 pines  de 2.54 mm  macho
 
-This board was created to convert  between the "small" J-Link EDU Mini Programmer-Debbuger 1.27 mm pitch connector to a 2.54 mm male header.
+Esta tarjeta fue creada para convertir del conector "pequeño" de 1.27 mm que trae el  Programador-Depurador J-Link EDU Mini a un conector macho de 2.54 mm.
 
-*Read this in other languages: [Español](/docs/README.es.md)*
+*Lea esto en otros idiomas: [English](README.md)*
 
-![PCB 3D picture](docs/pcb3d.png)
+![PCB 3D picture](pcb3d.png)
 
 The J-Link EDU Mini sports a 2x5 1.27 mm male connector and includes a female to female 2x5 1.27 mm ribbon cable for target connection.
 
