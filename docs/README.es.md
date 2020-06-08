@@ -1,29 +1,29 @@
 # Circuito impreso,  adaptador de conector 2x5 pines 1.27 mm macho a conector 2x5 pines  de 2.54 mm  macho
 
-Esta tarjeta fue creada para convertir del conector "pequeño" de 1.27 mm que trae el  Programador-Depurador J-Link EDU Mini a un conector macho de 2.54 mm.
+Esta tarjeta fue creada para convertir del "pequeñisimo" conector  de 1.27 mm que trae el  Programador-Depurador J-Link EDU Mini a un conector macho de 2.54 mm.
 
 *Lea esto en otros idiomas: [English](../README.md)*
 
 ![PCB 3D picture](pcb3d.png)
 
-El programado  J-Link EDU Mini viene con un conector de  2x5 pines  1.27 mm macho e incluye ribbon hembra hembra de 2x5 pines 1.27mm para conexion al dispositivo destino.
+El programado  J-Link EDU Mini viene con un conector de  2x5 pines  1.27 mm macho e incluye un cable ribbon hembra hembra de 2x5 pines 1.27mm para conectar al dispositivo que se programara.
 
-If for some reason your target doesn't have the same connector (debug pins scattered somewhere on the PCB), or want to connect to a circuit on a breadboard, this PCB will ease the task. 
+Si por algum motivo el dispositivo a programar no usa el mismo tipo de conector (por ejemplo los pines de depuracion estan diseminados en diferentes partes del circuito impreso ), o si se requiere conectar a un circuito en protoboard, esta tarjeta facilitara la tarea. 
 ## Como usar este repositorio
 
-El circuito impreso fue desarrollado en KiCad V5.1, e incluye algunos elementos que un no han sido agregados al repositorio oficial de las librerias de KiCad.  To make sure nothing  will break on the future, all the KiCad libraries were included as git submodules, so to clone the repo use the  --recursive option to get all submodules (about 5 Gb !!).
+El circuito impreso fue desarrollado en KiCad V5.1, e incluye algunos elementos que un no han sido agregados al repositorio oficial de las librerias de KiCad.  Para asegurar que el diseño puede ser editado tal cual como se creo, todas las librerias de KiCad han sido incluidas como submodulos de git, asi que para descargar dichos submodulos se debe clonar el repositorio con la opcion  --recursive  (se descargaran aproximadamente 5 Gb !!).
 
-To setup KiCad to use the downloaded library from the repo instead of the stock that came with the installer, [this post](https://forum.kicad.info/t/library-management-in-kicad-version-5/14636) will give you some lights.
+Para configurar KiCad para que use las librerias descargadas del repositorio en vez de usar las que vienen incluidas con el instalador, se recomienda leer el [siguienta articulo] (https://forum.kicad.info/t/library-management-in-kicad-version-5/14636) el cual brinda ideas de como hacerlo..
 
 ## Estructura de directorios
 
 * El directorio raiz contiene los archivos de  KiCad: proyecto, esquematico y circuito impreso.
-* library directory (git submodule) contains schematics symbol libraries.
-* modules directory (git submodule) contains footprint libraries.
-* packages3d directory (git submodule) contains 3D model libraries.
-* gerber/single directory contains ready to manufacture files, for a single board.
-* gerber/panel_100mmx100mm directory contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
-* docs directory some additional info about the project.
+* __library__  (submodulo git) contiene las librerias de simbolos esquematicos.
+* __modules__  (submodulo git) contiene las librarias de footprints.
+* __packages3d__ (submodulo git) contiene las librerias de modelos 3D.
+* __gerber/single__ contiene los archivos para fabricacion del circuito impreso, para una sola tarjeta.
+* __gerber/panel_100mmx100mm__ contiene los archivos para fabricacion del circuito impreso, para multiples tarjetas que caben en un panel de  100mm x 100mm  (usando Vcuts!).
+* __docs__ informacion adicional acerca del proyeto.
 
 ## Licencia
 
