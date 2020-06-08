@@ -13,7 +13,7 @@ Si por algum motivo el dispositivo a programar no usa el mismo tipo de conector 
 
 El circuito impreso fue desarrollado en KiCad V5.1, e incluye algunos elementos que un no han sido agregados al repositorio oficial de las librerias de KiCad.  Para asegurar que el diseño puede ser editado tal cual como se creo, todas las librerias de KiCad han sido incluidas como submodulos de git, asi que para descargar dichos submodulos se debe clonar el repositorio con la opcion  --recursive  (se descargaran aproximadamente 5 Gb !!).
 
-Para configurar KiCad para que use las librerias descargadas del repositorio en vez de usar las que vienen incluidas con el instalador, se recomienda leer el [siguienta articulo](https://forum.kicad.info/t/library-management-in-kicad-version-5/14636) el cual brinda ideas de como hacerlo..
+Para configurar KiCad para que use las librerias descargadas del repositorio en vez de usar las que vienen incluidas con el instalador, se recomienda leer el [siguiente articulo](https://forum.kicad.info/t/library-management-in-kicad-version-5/14636) el cual brinda ideas de como hacerlo..
 
 ## Estructura de directorios
 
@@ -29,4 +29,4 @@ Para configurar KiCad para que use las librerias descargadas del repositorio en 
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
-Este traabjo esta licenciado bajo una licencia [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Este trabajo esta licenciado bajo una licencia [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
